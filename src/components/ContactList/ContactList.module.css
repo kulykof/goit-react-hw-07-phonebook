@@ -1,0 +1,32 @@
+.container {
+  padding: 5px;
+  list-style: none;
+}
+
+.deleteButton {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  width: 80px;
+  margin: 0 10px;
+  text-transform: capitalize;
+  background-color: rgb(155, 145, 220);
+  border: 1px solid #a2f3b00f;
+  border-radius: 40%;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: #5ff393;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.contactItem:last-of-type {
+  margin-bottom: 0;
+}
